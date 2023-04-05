@@ -1,0 +1,56 @@
+.animate > g > #contactLine, #projectsLine, #aboutLine,
+#line_grey, #line_green1, #line_green2 {
+    animation: drawMap 4s ease;
+    animation-fill-mode: forwards;
+    
+}
+
+#contactGroup:hover {
+    opacity: 1 !important;
+}
+
+.animate > g > #contactLine {
+    stroke-dasharray: 787;
+    stroke-dashoffset: 787;
+}
+.animate > g > #aboutLine {
+    stroke-dasharray: 904;
+    stroke-dashoffset: 904;
+}
+.animate > g > #projectsLine{
+    stroke-dasharray: 1733;
+    stroke-dashoffset: 1733;
+}
+
+.animate > g > #line_grey {
+    stroke-dasharray: 506;
+    stroke-dashoffset: 606;
+}
+.animate > g > #line_green1{
+    stroke-dasharray: 463;
+    stroke-dashoffset: 463;
+}
+.animate > g > #line_green2{
+    stroke-dasharray: 574;
+    stroke-dashoffset: 574;
+}
+@keyframes drawMap {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.animate > g > circle[id*="stop"] { 
+    opacity: 0;
+    animation: dropIn 6s forwards;
+}
+@keyframes dropIn {
+    66% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

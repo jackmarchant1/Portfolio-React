@@ -1,0 +1,26 @@
+.project-detail {
+    background-color: #888888;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    opacity: 0.8;
+    flex-grow: 0.4;
+    padding: 30px;
+    max-width: 50%;
+    overflow-y: scroll;
+}
+.project-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+.left {
+    padding: 20px;
+    margin: 30px;
+    flex-grow: 1;
+}
+svg {
+    display: block;
+    margin: auto;
+    width: 100%;
+}

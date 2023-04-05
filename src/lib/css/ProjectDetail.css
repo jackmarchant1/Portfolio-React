@@ -1,0 +1,14 @@
+.yellow {
+    color: #FCFA21;
+}
+
+#banner {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.pd > div {
+    margin-bottom: 20px;
+}
