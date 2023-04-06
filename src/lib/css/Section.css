@@ -1,19 +1,57 @@
-.project-detail {
+.detail {
     background-color: #888888;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     opacity: 0.8;
-    flex-grow: 0.4;
     padding: 30px;
-    max-width: 50%;
+    width: 50%;
     overflow-y: scroll;
+    animation: slideInRight 2s ease;
+    animation-fill-mode: forwards;
 }
+
+.left {
+    animation: fadeIn 2s ease;
+    animation-fill-mode: forwards;
+}
+
+.detail > * {
+    animation: slideInRight 2s ease;
+    animation-fill-mode: forwards;
+}
+
+.hidden-toLeft {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .project-container {
     height: 100%;
     width: 100%;
     overflow: hidden;
     position: fixed;
 }
+
 .left {
     padding: 20px;
     margin: 30px;

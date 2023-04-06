@@ -1,52 +1,52 @@
-/* #contactLine, #projectsLine, #aboutLine,
-#line_grey, #line_green1, #line_green2 {
-    animation: drawMap 4s ease;
-    animation-fill-mode: forwards;
-    
+.li {
+    color: white;
+    position: relative;
+    text-decoration: none;
 }
 
-#contactLine {
-    stroke-dasharray: 787;
-    stroke-dashoffset: 787;
-}
-#aboutLine {
-    stroke-dasharray: 904;
-    stroke-dashoffset: 904;
-}
-#projectsLine{
-    stroke-dasharray: 1733;
-    stroke-dashoffset: 1733;
+.li:hover {
+    color: inherit;
+    text-decoration: none;
 }
 
-#line_grey {
-    stroke-dasharray: 506;
-    stroke-dashoffset: 606;
-}
-#line_green1{
-    stroke-dasharray: 463;
-    stroke-dashoffset: 463;
-}
-#line_green2{
-    stroke-dasharray: 574;
-    stroke-dashoffset: 574;
-}
-@keyframes drawMap {
-    to {
-        stroke-dashoffset: 0;
-    }
+.li::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
-circle[id*="stop"] { 
-    opacity: 0;
-    animation: dropIn 6s forwards;
+.li:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
-@keyframes dropIn {
-    66% {
-        opacity: 0;
-        transform: translateY(-20%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
+
+#proj::before {
+    background-color: #FCFA21!important;
+}
+#about::before {
+    background-color: #00D7C7!important;
+}
+#cont::before {
+    background-color: #FC0000!important;
+}
+
+i {
+    vertical-align: text-bottom;
+}
+
+#proj i {
+    color: #FCFA21;
+}
+#about i {
+    color: #00D7C7
+}
+#cont i {
+    color: #FC0000
+}

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import Map from './Map'
 import { Link } from 'react-router-dom';
-import '../lib/css/Map.css'
+import '../lib/css/Homepage.css'
 
 function Homepage() {
     useEffect(() => {
@@ -19,9 +19,9 @@ function Homepage() {
                     </div>
                     <div className="menu">
                         <ul>
-                            <Link to="/projects" id="proj" className='li'>Projects Line</Link>
-                            <Link to="/about" id="about" className='li'>About Me Line</Link>
-                            <Link to="/contact" id="cont" className='li'>Contact Line</Link>
+                            <Link to="/projects" id="proj" className='li'><i className="bi bi-circle-fill"></i> Projects Line</Link>
+                            <Link to="/about" id="about" className='li'><i className="bi bi-circle-fill"></i> About Me Line</Link>
+                            <Link to="/contact" id="cont" className='li'><i className="bi bi-circle-fill"></i> Contact Line</Link>
                         </ul>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import './Projects'
 import '../lib/css/ProjectDetail.css'
 import pgbann from '../lib/pub-golf-banner.png'
 
