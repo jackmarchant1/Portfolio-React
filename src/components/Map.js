@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../lib/css/Map.css';
 
 
-function Map( {animateIn, selected, stop} ) {
+function Map( {animateIn, selected, stop, setStopHandler} ) {
 
     var defaultVal = '0.4';
     if (selected === undefined) {
@@ -36,7 +36,9 @@ function Map( {animateIn, selected, stop} ) {
                 </g>
 
                 <g id="projectGroup" opacity={pg} className={selected === "proj" ? 'activeGroup' : 'inactiveGroup'}>
-                    <Link to="/projects" id="proj" className='li'>
+                    <Link to="/projects" id="proj" className='li' onClick={() => {
+                        setStopHandler(0);
+                    }}>
                         <rect id="projectsLine" x="103" y="56" width="582" height="335" rx="59" stroke="#FCFA21" strokeWidth="12" />
                     </Link>
                     <circle id="p_stop_05" className={stop === 5 ? "active" : "inactive"} cx="119" cy="68" r="14.5" fill="#D9D9D9" stroke="black" strokeWidth="5"/>
@@ -47,7 +49,9 @@ function Map( {animateIn, selected, stop} ) {
                 </g>
 
                 <g id="aboutGroup" opacity={ag} className={selected === "about" ? 'activeGroup' : 'inactiveGroup'}>
-                    <Link to="/about" id="proj" className='li'>
+                    <Link to="/about" id="proj" className='li' onClick={() => {
+                        setStopHandler(0);
+                    }}>
                         <path id="aboutLine" d="M1.5 357H246.204C249.617 357 252.912 355.753 255.47 353.495L632.03 21.0054C634.588 18.7466 637.883 17.5 641.296 17.5H778.5" stroke="#00D7C7" strokeWidth="12"/>
                     </Link>
                     <circle id="a_stop_01" className={stop === 1 ? "active" : "inactive"} cx="250" cy="357" r="14.5" fill="#D9D9D9" stroke="black" strokeWidth="5"/>
@@ -55,7 +59,9 @@ function Map( {animateIn, selected, stop} ) {
                 </g>
 
                 <g id="contactGroup" opacity={cg} className={selected === "cont" ? 'activeGroup' : 'inactiveGroup'}>
-                    <Link to="/contact" id="proj" className='li'>
+                    <Link to="/contact" id="proj" className='li' onClick={() => {
+                        setStopHandler(0);
+                    }}>
                         <path id="contactLine" d="M0 223H787" stroke="#FC0000" strokeWidth="12"/>
                     </Link>
                     <circle id="c_stop_01" className={stop === 1 ? "active" : "inactive"} cx="136" cy="223" r="14.5" fill="#D9D9D9" stroke="black" strokeWidth="5"/>

@@ -1,0 +1,33 @@
+#text.inactive {
+    animation: textDropOut 1s ease;
+    animation-fill-mode: forwards;
+}
+
+#text.active {
+    visibility: visible;
+    animation: textDropIn 1s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textDropIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes textDropOut {
+    from {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10%);
+    }
+}

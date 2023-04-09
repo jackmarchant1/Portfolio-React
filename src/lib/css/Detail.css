@@ -3,12 +3,21 @@
 }
 
 #banner {
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin: auto;
     border-radius: 20px;
+    max-height: 50%;
+    height: auto;
 }
 
 .pd > div {
     margin-bottom: 20px;
+}
+
+#icon {
+    max-height: 40%;
+    aspect-ratio: 1;
+    width: auto;
+    height: auto;
 }

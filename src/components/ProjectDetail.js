@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import '../lib/css/ProjectDetail.css'
-import pgbann from '../lib/pub-golf-banner.png'
+import '../lib/css/Detail.css'
+import pgbann from '../lib/images/pub-golf-banner.png'
 
 function ProjectDetail(project) {
   useEffect(() => {
