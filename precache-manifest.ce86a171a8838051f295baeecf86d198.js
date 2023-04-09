@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6e91a0f4e4f42f31e16a",
+    "revision": "7603fca244598e940d04",
     "url": "/Portfolio-React/static/css/main.6ec702a5.chunk.css"
   },
   {
-    "revision": "6e91a0f4e4f42f31e16a",
-    "url": "/Portfolio-React/static/js/main.6e91a0f4.chunk.js"
+    "revision": "7603fca244598e940d04",
+    "url": "/Portfolio-React/static/js/main.7603fca2.chunk.js"
   },
   {
     "revision": "03c018fb6e914630103e",
     "url": "/Portfolio-React/static/js/1.03c018fb.chunk.js"
   },
   {
-    "revision": "7fff9feb6bd6e71d0511",
-    "url": "/Portfolio-React/static/js/2.7fff9feb.chunk.js"
+    "revision": "87f2a92cb6d6d91aa645",
+    "url": "/Portfolio-React/static/js/2.87f2a92c.chunk.js"
   },
   {
     "revision": "ab038ea13640244b9701",
@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "/Portfolio-React/static/media/johnston-itc-std-bold-webfont.0c673f5a.woff2"
   },
   {
-    "revision": "d60e2151ae830d83a23226cbf57f543c",
-    "url": "/Portfolio-React/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
-  },
-  {
     "revision": "1b788ec967d971198ad09e705b7fdf73",
     "url": "/Portfolio-React/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
   },
@@ -48,7 +44,11 @@ self.__precacheManifest = [
     "url": "/Portfolio-React/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
   },
   {
-    "revision": "8666e4982a273ead0f081ebaed4729d1",
+    "revision": "d60e2151ae830d83a23226cbf57f543c",
+    "url": "/Portfolio-React/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
+  },
+  {
+    "revision": "013b96628dded16cc68d4a705132e619",
     "url": "/Portfolio-React/index.html"
   }
 ];
