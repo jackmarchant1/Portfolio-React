@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/Portfolio-React/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
   },
   {
-    "revision": "c10964129c4240447b599f65a4500716",
-    "url": "/Portfolio-React/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
-  },
-  {
     "revision": "1b788ec967d971198ad09e705b7fdf73",
     "url": "/Portfolio-React/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
   },
   {
     "revision": "0c673f5aa02d70eb085fe3d35897bc5c",
     "url": "/Portfolio-React/static/media/johnston-itc-std-bold-webfont.0c673f5a.woff2"
+  },
+  {
+    "revision": "c10964129c4240447b599f65a4500716",
+    "url": "/Portfolio-React/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
   },
   {
     "revision": "15ca03fb4ca8c5d0a6d3ba3f96353f88",
