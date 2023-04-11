@@ -5,15 +5,19 @@ export class Project {
     category = "Project Category";
     year = "2023";
     technologies = "Technologies used";
+    banner;
+    screenshots = [];
 
 
-    constructor(id, t, d, c, y, techs) {
+    constructor(id, t, d, c, y, techs, b, ss) {
         this.id = id;
         this.title = t;
         this.description = d;
         this.category = c;
         this.year = y;
         this.technologies = techs;
+        this.banner = b;
+        this.screenshots = ss;
     }
 }
 

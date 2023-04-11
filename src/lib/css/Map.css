@@ -52,12 +52,27 @@
     transform-origin: center;
 }
 
+.activeGroup .inactive {
+    animation: shrink 2s ease;
+    animation-fill-mode: forwards;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
 
 @keyframes grow {
     to {
         transform: scale(1.5);
         fill: #020315;
         stroke: #D9D9D9;
+    }
+}
+
+@keyframes shrink {
+    to {
+        transform: scale(1);
+        stroke: #020315;
+        fill: #D9D9D9;
     }
 }
 

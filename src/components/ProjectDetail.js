@@ -1,14 +1,20 @@
 import React, {useEffect} from 'react'
 import '../lib/css/Detail.css'
-import pgbann from '../lib/images/pub-golf-banner.png'
 
 function ProjectDetail(project) {
   useEffect(() => {
     document.title = "Projects";
   }, []);
+
+  if (project.screenshots !== undefined) {
+    var screenshots = project.screenshots.map(function(image) {
+      return (<img src={image} alt="Project screenshot" />);
+     });
+  }
+
   return (
       <div className="pd container text-left">
-        <img id="banner" src={pgbann} alt="Project Banner" />
+        {project.banner !== undefined ? <img id="banner" src={project.banner} alt="Project Banner" /> : <></>}
         <h1 className="display-3 text-center">{project.title}</h1>
           <div className="attributes">
             <div className="row">
@@ -29,6 +35,9 @@ function ProjectDetail(project) {
           </div>
         <h2>Description</h2>
         <p>{project.description}</p>
+        <div className="screenshots">
+          {project.screenshots !== undefined ? screenshots : <></>}
+        </div>
       </div>
   )
 }
