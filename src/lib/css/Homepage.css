@@ -50,3 +50,104 @@ i {
 #cont i {
     color: #FC0000
 }
+
+.container-fluid {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 0.4;
+}
+
+.tubemap {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    bottom: 0;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: larger;
+    padding: 0;
+}
+a {
+    color: white;
+}
+.li {
+    display: block;
+    list-style: none;
+    font-size: x-large;
+}
+
+.li::before {
+    content: "■ ";
+ }
+
+ #cont::before {
+    color: #FC0000;
+ }
+ #about::before {
+    color: #00D7C7;
+ }
+ #proj::before {
+    color: #FCFA21;
+ }
+
+svg {
+    width: 80%;
+    display: block;
+    margin: auto auto;
+}
+.custom-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        text-align: start;
+    }
+    h3 {
+        display: none;
+    }
+    ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    .navigation {
+        flex-direction: column-reverse;
+    }
+    .container-fluid {
+        justify-content: center;
+        overflow: scroll;
+    }
+    .tubemap {
+        overflow: hidden;
+        scale: 1.75;
+        transform-origin: top left;
+        margin: 0;
+        width: auto;
+    }
+}

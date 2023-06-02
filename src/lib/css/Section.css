@@ -50,6 +50,7 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
+    flex-direction: row;
 }
 
 .left {
@@ -62,3 +63,45 @@ svg {
     margin: auto;
     width: 100%;
 }
+
+/* Existing styles... */
+
+/* Media query for smaller screens */
+/* Existing styles... */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1000px) {
+    svg {
+        width: 75%;
+    }
+    .project-container {
+        position: absolute!important;
+        flex-direction: column;
+        height: 100vh; /* Using viewport units to make sure this takes up the entire height of the screen */
+        overflow: auto; /* Ensures nothing overflows the viewport */
+      }
+    .left {
+        position: fixed; /* Changed from fixed to relative */
+        top: 0;
+        z-index: 1; /* Ensure .left is below .detail */
+        width: 100%; /* Ensure .left covers full width on small screens */
+        height: 50vh; /* Set .left to take up half of the viewport height */
+        padding: 5px!important;
+        margin: 0!important;
+    }
+    .detail {
+        position: relative; /* Changed from relative to sticky */
+        top: 50vh; /* Set the top property to the height of .left so .detail knows when to stick */
+        width: 100%;
+        z-index: 2; /* Ensure .detail is on top of .left */
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 40px;
+        overflow-y: visible;
+    }
+  }
+
+
+
+  
+  

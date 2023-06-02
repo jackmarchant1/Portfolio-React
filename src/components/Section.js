@@ -30,7 +30,7 @@ function Section({section}) {
     }
 
     return (
-        <div className="d-flex justify-content-between flex-row project-container">
+        <div className="d-flex justify-content-between project-container">
             <div className="left d-flex flex-column flex-grow">
                 <Link to='/'>
                     <Sign section={section}/>
@@ -47,11 +47,13 @@ function Section({section}) {
                 <div className="row arrows">
                     <div className="col clickable"  onClick={() => {
                         setStop((stop - 1 + getDivisor()) % getDivisor());
+                        window.scrollTo({ top: 0, behavior: 'smooth'});
                     }}>
                         <i className="bi bi-arrow-left" role="button" style={{fontSize: '4rem', float: 'left'}}></i>
                     </div>
                     <div className="col" onClick={() => {
                         setStop((stop+1) % getDivisor());
+                        window.scrollTo({ top: 0, behavior: 'smooth'});
                     }}>
                         <i className="bi bi-arrow-right" role="button" style={{fontSize: '4rem', float: 'right'}}></i>
                     </div>
