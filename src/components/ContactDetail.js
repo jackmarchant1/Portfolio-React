@@ -8,7 +8,10 @@ function ContactDetail(contact) {
   return (
     <>
     <h1 className="display3">{contact.title}</h1>
-    <img id="banner" src={contact.icon} alt="Icon"/>
+    <a href={contact.link}>
+      <img id="contact-banner" src={contact.icon} alt="Icon"/>
+    </a>
+    
     </>
   )
 }

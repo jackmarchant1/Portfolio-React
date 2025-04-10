@@ -39,10 +39,12 @@ export class Contact {
     id;
     title = "Contact Method";
     icon;
+    link;
 
-    constructor(id, title, icon) {
+    constructor(id, title, icon, link) {
         this.id = id;
         this.title = title;
         this.icon = icon;
+        this.link = link;
     }
 }

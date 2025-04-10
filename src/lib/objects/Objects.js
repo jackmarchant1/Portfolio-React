@@ -19,7 +19,7 @@ const aboutMe = new About(1, "Myself", "Hi, my name is Jack Marchant. I’m a co
 const aboutCompany = new About(2, "My Company", "Mid 2023, I started a software engineering company with a university friend, Forge38. The company is in its early stages and right now is used as a umbrella to encompass every project that we work together under, such as PubGolf. We hope there will be more to come from Forge38 soon.", "");
 export const aboutArray = [aboutMe, aboutCompany]
 
-const linkedIn = new Contact(1, "LinkedIn", LinkedInLogo);
-const mail = new Contact(2, "Mail", MailLogo);
-const github = new Contact(3, "Github", GithubLogo);
+const linkedIn = new Contact(1, "LinkedIn", LinkedInLogo, "https://www.linkedin.com/in/jack-marchant-98b122124/");
+const mail = new Contact(2, "Mail", MailLogo, "mailto:me@jackmarchantt.dev");
+const github = new Contact(3, "Github", GithubLogo, "https://github.com/jackmarchant1/");
 export const contactArray = [linkedIn, mail, github]
