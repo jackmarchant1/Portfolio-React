@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5127905a025e2b0cd103",
-    "url": "/static/css/main.927b6f1e.chunk.css"
+    "revision": "73820a0371213c36825f",
+    "url": "/static/css/main.69faccaf.chunk.css"
   },
   {
-    "revision": "5127905a025e2b0cd103",
+    "revision": "73820a0371213c36825f",
     "url": "/static/js/main.c9d1d041.chunk.js"
   },
   {
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
   },
   {
-    "revision": "c272be079d930078c802130094ebc825",
+    "revision": "5571252de6c1a1d874283c223ab8342e",
     "url": "/index.html"
   }
 ];
