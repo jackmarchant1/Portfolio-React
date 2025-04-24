@@ -11,7 +11,7 @@ function AboutDetail(about) {
       <h1 className="display-3 text-center">{about.title}</h1>
       <p>{about.text}</p>
         <br/>
-        <a className='li' href={Resume}><i className={about.title==="Myself" ? "bi bi-download" : "bi bi-forward"}></i>  {about.title==="Myself" ? "Resume" : "Website"}</a>
+        <a className='li' href={about.title ==="Myself" ? Resume : "mailto:info@forge38.co.uk"}><i className={about.title==="Myself" ? "bi bi-download" : "bi bi-forward"}></i>  {about.title==="Myself" ? "Resume" : "Reach out"}</a>
     </div>
   )
 }

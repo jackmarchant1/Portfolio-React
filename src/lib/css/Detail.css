@@ -30,3 +30,9 @@
     width: auto;
     height: auto;
 }
+
+.attribute {
+    margin-right: 10px;
+    max-width: 50%;
+    text-align: center;
+}

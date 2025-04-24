@@ -7,9 +7,10 @@ export class Project {
     technologies = "Technologies used";
     banner;
     screenshots = [];
+    demo = null;
 
 
-    constructor(id, t, d, c, y, techs, b, ss) {
+    constructor(id, t, d, c, y, techs, b, demo=null) {
         this.id = id;
         this.title = t;
         this.description = d;
@@ -17,7 +18,7 @@ export class Project {
         this.year = y;
         this.technologies = techs;
         this.banner = b;
-        this.screenshots = ss;
+        this.demo = demo;
     }
 }
 
