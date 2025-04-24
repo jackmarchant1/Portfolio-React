@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "20c1bf71fa866f8630cc",
-    "url": "/static/css/main.24771cf2.chunk.css"
+    "revision": "5127905a025e2b0cd103",
+    "url": "/static/css/main.927b6f1e.chunk.css"
   },
   {
-    "revision": "20c1bf71fa866f8630cc",
-    "url": "/static/js/main.5d478844.chunk.js"
+    "revision": "5127905a025e2b0cd103",
+    "url": "/static/js/main.c9d1d041.chunk.js"
   },
   {
-    "revision": "dc9507c8f2fe9880d8a2",
-    "url": "/static/js/runtime~main.c165c877.js"
+    "revision": "80034f443a585ad9f01f",
+    "url": "/static/js/runtime~main.628c01bb.js"
   },
   {
-    "revision": "03fbe56544ba3b678398",
-    "url": "/static/js/2.c94c57d4.chunk.js"
+    "revision": "47a871a3bcf754fc6b6b",
+    "url": "/static/js/2.bb632889.chunk.js"
   },
   {
-    "revision": "ff7f2396e4d79702702a",
-    "url": "/static/js/3.a712f853.chunk.js"
+    "revision": "f4866491ae15624a43d3",
+    "url": "/static/js/3.b700955a.chunk.js"
   },
   {
     "revision": "f8d48d6e399432fb9d2ec4317e4477dd",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/static/media/portfolio-banner.65992e8d.png"
   },
   {
+    "revision": "0b89c3ca2409ffa726bee18e639317e6",
+    "url": "/static/media/tactico-banner.0b89c3ca.png"
+  },
+  {
     "revision": "96c70395c34c8f4f2d88a0824479f900",
     "url": "/static/media/Resume_Portfolio.96c70395.pdf"
   },
@@ -60,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
   },
   {
-    "revision": "1f2ab991db70cbb2a8c3fa05ae3662c0",
+    "revision": "c272be079d930078c802130094ebc825",
     "url": "/index.html"
   }
 ];
