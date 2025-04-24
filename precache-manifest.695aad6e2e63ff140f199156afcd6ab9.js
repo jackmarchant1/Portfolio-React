@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/static/media/johnston-itc-std-bold-webfont.0c673f5a.woff2"
   },
   {
-    "revision": "d60e2151ae830d83a23226cbf57f543c",
-    "url": "/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
-  },
-  {
     "revision": "c10964129c4240447b599f65a4500716",
     "url": "/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
   },
   {
     "revision": "1b788ec967d971198ad09e705b7fdf73",
     "url": "/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
+  },
+  {
+    "revision": "d60e2151ae830d83a23226cbf57f543c",
+    "url": "/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
   },
   {
     "revision": "5571252de6c1a1d874283c223ab8342e",
