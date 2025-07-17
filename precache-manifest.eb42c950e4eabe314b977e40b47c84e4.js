@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "73820a0371213c36825f",
+    "revision": "90a3f95e98a7356cb32c",
     "url": "/static/css/main.69faccaf.chunk.css"
   },
   {
-    "revision": "73820a0371213c36825f",
-    "url": "/static/js/main.c9d1d041.chunk.js"
+    "revision": "90a3f95e98a7356cb32c",
+    "url": "/static/js/main.72d0e4c7.chunk.js"
   },
   {
     "revision": "80034f443a585ad9f01f",
     "url": "/static/js/runtime~main.628c01bb.js"
   },
   {
-    "revision": "47a871a3bcf754fc6b6b",
-    "url": "/static/js/2.bb632889.chunk.js"
+    "revision": "3d5273d234315b434cd9",
+    "url": "/static/js/2.63f2c1c6.chunk.js"
   },
   {
     "revision": "f4866491ae15624a43d3",
@@ -52,10 +52,6 @@ self.__precacheManifest = [
     "url": "/static/media/johnston-itc-std-bold-webfont.0c673f5a.woff2"
   },
   {
-    "revision": "c10964129c4240447b599f65a4500716",
-    "url": "/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
-  },
-  {
     "revision": "1b788ec967d971198ad09e705b7fdf73",
     "url": "/static/media/johnstonitcstd-medium-webfont.1b788ec9.woff"
   },
@@ -64,7 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/johnston-itc-std-bold-webfont.d60e2151.woff"
   },
   {
-    "revision": "5571252de6c1a1d874283c223ab8342e",
+    "revision": "c10964129c4240447b599f65a4500716",
+    "url": "/static/media/johnstonitcstd-medium-webfont.c1096412.woff2"
+  },
+  {
+    "revision": "b0a9830550fb5d090076717f24edbac4",
     "url": "/index.html"
   }
 ];
